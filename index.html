@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Diário de Sorocaba</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f2efe3;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #4a3d2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .headline {
+      font-size: 2.2rem;
+      margin: 1rem 0;
+    }
+    .subheadline {
+      font-size: 1.1rem;
+      color: #ddd;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border: 1px solid #ccc;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    article {
+      flex: 1 1 100%;
+      line-height: 1.8;
+    }
+    .dateline {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+    .byline {
+      font-style: italic;
+      margin-bottom: 1rem;
+      color: #555;
+    }
+    .side-image {
+      flex: 1 1 200px;
+      background-color: #ccc;
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #aaa;
+    }
+    .image-clip {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #aaa;
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 2rem 1rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="headline">O Diário de Sorocaba</div>
+    <div class="subheadline">Segunda-feira, 19 de março de 2012</div>
+  </header>
+
+  <div class="container">
+    <div class="side-image" style="background-image: url('imagem-esquerda.jpg');"></div>
+    <article>
+      <div class="dateline">Rio de Janeiro (RJ) —</div>
+      <div class="byline">Por Redação Especial</div>
+      <h2>Relatório revela transferência suspeita de pacientes em 1996</h2>
+      <p>O relatório nº 14.387-B, emitido pelo Departamento de Administração Sanitária do Estado, aponta que entre os dias 19 e 23 de outubro de 1996, dez pacientes foram realocados da ala comum para setores de contenção do Instituto Juliano Moreira, na Zona Oeste do Rio.</p>
+      <p>“(...) os registros de motivação clínica estavam ausentes ou em branco (...), o que constitui falha administrativa grave segundo a Portaria 145-A.”</p>
+      <p>A Secretaria Estadual de Saúde negou qualquer violação de protocolo.</p>
+      <p>Um funcionário, que pediu para não ser identificado, afirmou que os pacientes eram parte de um grupo sob observação experimental, mas não confirmou se havia relação com o protocolo CX-9 — código que aparece manuscrito em três prontuários fotocopiados obtidos pela reportagem.</p>
+      <p>Os nomes dos transferidos não foram oficialmente divulgados. No entanto, documentos internos vazados ao jornal revelam que uma das pacientes estaria vinculada a um caso arquivado em Laranjeiras, meses antes.</p>
+      <p>“(...) entre os nomes, encontramos o fragmento de um dossiê com a designação incompleta: ‘A…uda C. dos R…os’ — sem data de nascimento ou registro médico válido.”</p>
+      <p>Ainda segundo os papéis, o selo “CX-9” foi carimbado sobre a ficha. Não há confirmação de que a paciente tenha sobrevivido à transferência.</p>
+      <p><strong>Nota do editor:</strong><br>
+      O nome completo e as circunstâncias exatas permanecem sob investigação. A equipe do Observador segue buscando esclarecimentos junto à Ouvidoria do Sistema Único de Saúde.</p>
+
+      <img class="image-clip" src="https://drive.google.com/uc?export=view&id=1WX05X-gdGvfz1g18EApptv78vAsfhvHZ" alt="Recorte de jornal antigo sobre relatório CX-9">
+
+    </article>
+    <div class="side-image" style="background-image: url('imagem-direita.jpg');"></div>
+  </div>
+
+  <footer>
+    O Diário de Sorocaba &copy; 2012 — Edição digital fictícia para fins narrativos
+  </footer>
+</body>
+</html>
